@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: orange;
+    background-color: black;
+    padding: 10px;
+}
+
+#p-1 {
+    margin: 30px;
+    background-color: rgb(162, 190, 38);
+    padding: 10px;
+}
+
+#red-mark {
+    color: red;
+    background-color:azure;
+    padding: 5px;
+}
+
+#blue-mark {
+    color: blue;
+    background-color: rgb(166, 107, 166);
+    padding: 3px;
+}
+
+#p-2 {
+    margin: 30px;
+    background-color: rgb(151, 172, 180);
+    padding: 10px;
+}
+
+#green-mark {
+    color: green;
+    background-color: beige;
+    padding: 3px;
+}
+
+#purple-mark {
+    color: purple;
+    background-color: skyblue;
+    padding: 3px;
+}
+
+#p-3 {
+    margin: 30px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+#yellow-mark {
+    color: yellow;
+    background-color: grey;
+    padding: 3px;
+}
+
+#pink-mark {
+    color: pink;
+    background-color: red;
+    padding: 3px; 
+}
+
+#violet-mark {
+    color: violet;
+    background-color: black;
+    padding: 3px;
+}
