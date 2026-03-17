@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container">
+    <h1>🎉 Happy Birthday Jesus 🎉</h1>
+    <h2>Celebrating Love, Light & Grace ✨</h2>
+
+    <div class="cake">🎂</div>
+
+    <p class="message">
+      Today we celebrate the birth of Jesus  — a symbol of hope,
+      love, and peace. May your heart be filled with joy and your life
+      with blessings. 💛
+    </p>
+
+    <button onclick="showBlessing()">Click for a Birthday wishes 🙏</button>
+  </div>
+
+  <script>
+    function showBlessing() {
+      alert("May your life be filled with peace, love, and endless blessings ✨");
+    }
+
+    // Create floating hearts
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.classList.add('heart');
+      heart.innerText = '💖';
+
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = (Math.random() * 3 + 3) + 's';
+
+      document.body.appendChild(heart);
+
+      setTimeout(() => {
+        heart.remove();
+      }, 6000);
+    }
+
+    setInterval(createHeart, 500);
+  </script>
+  
+    </body>
+</html>

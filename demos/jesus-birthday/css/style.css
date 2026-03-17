@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+      background: linear-gradient(to bottom, #fff8e1, #ffd54f);
+      color: #5d4037;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #d4af37;
+      margin-bottom: 10px;
+      animation: glow 2s infinite alternate;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+    }
+
+    .cake {
+      font-size: 4rem;
+      animation: bounce 2s infinite;
+    }
+
+    .message {
+      margin-top: 20px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 25px;
+      background: #ff8f00;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #e65100;
+      transform: scale(1.05);
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 5px #fff; }
+      to { text-shadow: 0 0 20px #ffd700; }
+    }
+
+    /* Floating hearts */
+    .heart {
+      position: absolute;
+      bottom: -50px;
+      font-size: 20px;
+      animation: floatUp 6s linear infinite;
+      color: #ff6f61;
+    }
+
+    @keyframes floatUp {
+    }to {
+        transform: translateY(-110vh);
+        opacity: 0;
+      }
+      
